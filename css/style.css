@@ -36,19 +36,21 @@ main nav {
 
 nav button {
     border-radius: 10px;
-    border: 1px solid;
+    border: 2px solid;
 }
 
 nav #add-task {
     padding: 5px;
     background-color: #45abea;
     color: white;
+    border-color: #45abea;
 }
 
 nav #add-section {
     padding: 5px;
     background-color: white;
     color: grey;
+    border-color: grey;
 }
 
 #sezione-centrale hr {
