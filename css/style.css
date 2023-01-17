@@ -43,3 +43,11 @@ main nav {
     border-color: red;
 }
 
+#sezione-centrale #task-list {
+    padding: 30px 50px;
+}
+
+#task-list .task {
+    margin-bottom: 50px;
+}
+
