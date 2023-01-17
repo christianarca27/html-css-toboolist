@@ -51,3 +51,11 @@ main nav {
     margin-bottom: 50px;
 }
 
+.task h2:before{
+    content: '\25BE';
+}
+
+.task ul{
+    list-style-type: none;
+}
+
