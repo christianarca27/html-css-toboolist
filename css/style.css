@@ -48,14 +48,43 @@ main nav {
 }
 
 #task-list .task {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
-.task h2:before{
+.task h2 {
+    margin-bottom: 10px;
+}
+
+.task h2:before {
     content: '\25BE';
 }
 
-.task ul{
+.task ul {
     list-style-type: none;
 }
 
+.task li {
+    margin-bottom: 10px;
+}
+
+li .mark {
+    display: inline-block;
+    height: 1.5em;
+    width: 1.5em;
+    text-align: center;
+    line-height: 1.5em;
+    vertical-align: middle;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+li .done {
+    color: green;
+    border-color: green;
+}
+
+li .undone {
+    color: red;
+    border-color: red;
+}
