@@ -5,13 +5,13 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
-nav img {
+header img {
     display: inline-block;
     padding: 20px 5px 20px 35px;
     height: 128px;
 }
 
-nav h1 {
+header h1 {
     display: inline-block;
     font-size: 4em;
     line-height: 128px;
