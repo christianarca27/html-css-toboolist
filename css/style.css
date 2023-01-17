@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav img {
+    display: inline-block;
+    padding: 20px 5px 20px 35px;
+    height: 128px;
+}
+
+nav h1 {
+    display: inline-block;
+    font-size: 4em;
+    line-height: 128px;
+    vertical-align: top;
+}
