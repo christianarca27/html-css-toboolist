@@ -20,8 +20,6 @@ header h1 {
 
 main {
     background-color: #F6F8F9;
-    /* Colore di prova più visibile del grigio */
-    background-color: red;
     padding: 60px 0;
 }
 
@@ -30,17 +28,31 @@ main #sezione-centrale {
     max-width: 1000px;
     margin: 0 auto;
     border-radius: 1%;
-    height: 600px;
 }
 
 main nav {
     padding: 20px 50px;
 }
 
+nav button {
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+nav #add-task {
+    padding: 5px;
+    background-color: #45abea;
+    color: white;
+}
+
+nav #add-section {
+    padding: 5px;
+    background-color: white;
+    color: grey;
+}
+
 #sezione-centrale hr {
     border-color: #F6F8F9;
-    /* Colore di prova più visibile del grigio */
-    border-color: red;
 }
 
 #sezione-centrale #task-list {
