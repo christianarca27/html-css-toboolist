@@ -5,6 +5,7 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+/* header */
 header img {
     display: inline-block;
     padding: 20px 5px 20px 35px;
@@ -17,12 +18,14 @@ header h1 {
     line-height: 128px;
     vertical-align: top;
 }
+/* /header */
 
 main {
     background-color: #F6F8F9;
     padding: 60px 0;
 }
 
+/* sezione centrale */
 main #sezione-centrale {
     background-color: white;
     max-width: 1000px;
@@ -30,33 +33,36 @@ main #sezione-centrale {
     border-radius: 1%;
 }
 
-main nav {
+/* nav comandi utente */
+main #comandi-utente {
     padding: 20px 50px;
 }
 
-nav button {
-    border-radius: 10px;
+#comandi-utente button {
+    border-radius: 5px;
     border: 2px solid;
 }
 
-nav #add-task {
+#comandi-utente #add-task {
     padding: 5px;
     background-color: #45abea;
     color: white;
     border-color: #45abea;
 }
 
-nav #add-section {
+#comandi-utente #add-section {
     padding: 5px;
     background-color: white;
     color: grey;
     border-color: grey;
 }
+/* /nav comandi utente */
 
 #sezione-centrale hr {
-    border-color: #F6F8F9;
+    border: 1px solid #F6F8F9;
 }
 
+/* task list */
 #sezione-centrale #task-list {
     padding: 30px 50px;
 }
@@ -135,3 +141,5 @@ li .website {
 li .sales {
     background-color: #B0C926;
 }
+/* /task list */
+/* /sezione centrale */
