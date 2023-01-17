@@ -88,3 +88,36 @@ li .undone {
     color: red;
     border-color: red;
 }
+
+li .tipo-task {
+    padding: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    font-size: 0.7em;
+    color: white;
+}
+
+li .editoriale {
+    background-color: #45abea;
+}
+
+li .q1-golas {
+    background-color: #9C72E4;
+}
+
+li .recruiting {
+    background-color: #64C0A9;
+}
+
+li .mobile {
+    background-color: #F29E33;
+}
+
+li .website {
+    background-color: #D761A0;
+}
+
+li .sales {
+    background-color: #B0C926;
+}
