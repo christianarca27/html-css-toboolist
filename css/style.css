@@ -109,12 +109,12 @@ li .mark {
     border-radius: 50%;
 }
 
-li .done {
+li .mark.done {
     color: green;
     border-color: green;
 }
 
-li .undone {
+li .mark.undone {
     color: red;
     border-color: red;
 }
@@ -128,27 +128,27 @@ li .tipo-task {
     color: white;
 }
 
-li .editoriale {
+li .tipo-task.editoriale {
     background-color: #45abea;
 }
 
-li .q1-golas {
+li .tipo-task.q1-golas {
     background-color: #9C72E4;
 }
 
-li .recruiting {
+li .tipo-task.recruiting {
     background-color: #64C0A9;
 }
 
-li .mobile {
+li .tipo-task.mobile {
     background-color: #F29E33;
 }
 
-li .website {
+li .tipo-task.website {
     background-color: #D761A0;
 }
 
-li .sales {
+li .tipo-task.sales {
     background-color: #B0C926;
 }
 /* /task list */
