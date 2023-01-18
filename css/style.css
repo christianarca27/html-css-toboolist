@@ -13,13 +13,14 @@ header img {
     display: inline-block;
     padding: 20px 5px 20px 35px;
     height: 128px;
+    vertical-align: middle;
 }
 
 header h1 {
     display: inline-block;
     font-size: 4em;
     line-height: 128px;
-    vertical-align: top;
+    vertical-align: middle;
 }
 /* /header */
 
