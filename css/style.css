@@ -10,7 +10,6 @@ body{
 
 /* header */
 header img {
-    display: inline-block;
     vertical-align: middle;
     height: 128px;
     padding: 20px 5px 20px 35px;
